@@ -1,0 +1,341 @@
+@media(min-width:0px) {
+	.nav a{
+		font-size: 25px;
+	}
+	.nav{
+		display: none;
+	}
+
+	.img_responsive{
+		width: 30px;
+	}
+
+}
+
+@media(min-width:321px) and (max-width:575px) {
+
+	.add_review_input input{
+		margin-top: 65px;
+		margin-left: -120px;
+	}
+
+	.delete{
+		margin-right: 25px;
+	}
+
+	.data_message{
+		margin-left: 0px;
+	}
+
+	.fam{
+		margin-bottom: 0px;
+	}
+
+	.otziv{
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 10px;
+	}
+
+	.col-sm-12{
+		width: 100%;
+	}
+
+	.col-xl-12{
+		width: 100%;
+	}
+
+	.akciy2 h3{
+		font-size: 10vw;
+	}
+
+	.uslugi h3{
+		font-size: 10vw;
+	}
+
+	.akciy2 iframe{
+		height: 300px;
+	}
+
+	.container {
+		width: 320px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.akciy h3{
+		font-size: 10vw;
+	}
+	.nav a{
+		font-size: 33px;
+	}
+	.nav{
+		display: none;
+	}
+
+	.bars:checked ~ .nav{
+		display: block;
+	}
+
+	.main{
+		padding-top: 20px;
+	}
+
+	.img_responsive{
+		width: 30px;
+		margin-left: -70px;
+		margin-right: 40px;
+	}
+
+	header{
+		width: 320px;
+	}
+
+	.footer{
+		background-color: rgba(255, 0, 19, 0.14);
+		border-radius: 30px 30px 0  0;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.col{
+		width: 33%;
+	}
+
+	.col-offset-8{
+		float:left;
+		margin-left: 25%;
+		min-height: 1px;
+	}
+
+	.col-offset-xs-2{
+		float:left;
+		margin-left: 16.6666666%;
+		min-height: 1px;
+	}
+
+	.col-offset-2{
+		float:left;
+		margin-left: 16.6666666%;
+		min-height: 1px;
+	}
+
+	.col-xs-8{
+		width: 66.6666666%;
+		float: left;
+	}
+
+	.col-xs-12{
+		width: 100%;
+		float: left;
+	}
+
+	.col-6{
+		width: 100%;
+		float: left;
+	}
+
+	.contacts_li{
+		width: 100%;
+	}
+	.menu_footer li{
+		text-align: center;
+		list-style-type:none;
+	}
+
+	header input{
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	.form_zayv{
+		margin-top: 20px;
+	}
+
+	.zayvka_text{
+		padding-top: 30px;
+	}
+
+	.offer{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.form_zayv p{
+		padding-right: 10px;
+	}
+
+	.elem, .elem2{
+		margin-left: 30px;
+	}
+
+	input[type=checkbox]#toggle {
+		position: absolute;
+		z-index: -9999px;
+		top: -9999px;
+		left: -9999px;
+	}
+	#menu {
+		display: none;
+		background-color: rgba(255, 0, 19, 0.14);
+		border-radius: 20px;
+		padding: 10px;
+	}
+
+	#menu li{
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	#menu li{
+		width: 100%;
+	}
+
+
+	input[type=checkbox]#toggle:checked ~ #menu {
+		display: block;
+		margin: auto;
+	}
+	input[type=checkbox]#toggle:checked ~ #menu li {
+		display: block;
+	}
+
+	.modal-content {
+		width: 95%;
+		padding-bottom: 120px;
+		top:0%;
+	}
+
+	.modal-footer button {
+
+		width: 100%;
+	}
+
+	#nail > .modal-content{
+		width: 120%;
+	}
+}
+
+@media(min-width:576px) and (max-width:767px) {
+	.container {
+		width: 500px;
+	}
+	header{
+		width: 500px;
+	}
+	.nav a{
+		font-size: 30px;
+	}
+	.img_responsive{
+		display: none;
+	}
+
+	.nav{
+		display: block;
+	}
+	.col-xl-12{
+		width: 100%;
+	}
+
+	input[type=checkbox]#toggle,
+	label[for=toggle] {
+		display: none;
+	}
+
+	.modal-content {
+		width: 95%;
+	}
+
+	#nail > .modal-content{
+		width: 90%;
+	}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	.container {
+		width: 720px;
+	}
+	.nav a{
+		font-size: 30px;
+	}
+
+	.img_responsive{
+		display: none;
+	}
+
+	.nav{
+		display: block;
+	}
+	header{
+		width: 720px;
+	}
+	.col-xl-12{
+		width: 90%;
+	}
+	input[type=checkbox]#toggle,
+	label[for=toggle] {
+		display: none;
+	}
+
+	.modal-content {
+		width: 60%;
+	}
+	#nail > .modal-content{
+		width: 100%;
+	}
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+	.container {
+		width: 950px;
+	}
+	.nav a{
+		font-size: 38px;
+	}
+
+	.img_responsive{
+		display: none;
+		width: 10%;
+		float:left;
+	}
+
+	.nav{
+		display: block;
+	}
+	header{
+		width: 950px;
+	}
+	input[type=checkbox]#toggle,
+	label[for=toggle] {
+		display: none;
+	}
+	.modal-content {
+		width: 55%;
+	}
+}
+
+@media(min-width:1200px)  {
+	.container {
+		width: 1200px;
+	}
+	.nav a{
+		font-size: 50px;
+	}
+
+	.img_responsive{
+		display: none;
+		width: 10%;
+		float:left;
+	}
+
+	.nav{
+		display: block;
+	}
+	header{
+		width: 1200px;
+	}
+	input[type=checkbox]#toggle,
+	label[for=toggle] {
+		display: none;
+	}
+}
